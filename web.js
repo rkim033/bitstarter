@@ -8,7 +8,7 @@ var toString = read.toString(read);
 
 app.get('/', function(request, response) {
   response.send(toString);
-}));
+});
 
 var port = process.env.PORT || 5000;
 app.listen(port, function() {
