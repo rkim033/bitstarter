@@ -32,13 +32,13 @@ var CHECKSFILE_DEFAULT = "";
 var URL_DEFAULT = ""
 
 var assertUrlExists = function(infile) {
-
+console.log("urllll");
     var instr = infile.toString();
     return instr;
 };
 
 var assertFileExists = function(infile) {
-
+console.log("fileee");
     var instr = infile.toString();
     if(!fs.existsSync(instr)) {
         console.log("%s does not exist. Exiting.", instr);
